@@ -1,6 +1,7 @@
-name: Ping URL every 5 minutes
+git commit -m "Add GitHub Actions workflow"name: Ping URL every 5 minutes
 
 on:
+  push:
   schedule:
     - cron: '*/5 * * * *'
 
